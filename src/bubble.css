@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .bubble-chart {
+    position: relative;
+  }
+  
+  .bubble {
+    fill: #69b3a2;
+    stroke: #fff;
+    opacity: 0.7;
+  }
+  
+  .bubble:hover {
+    opacity: 1;
+  }
+  
+  .bubble-label {
+    font-size: 12px;
+    font-weight: bold;
+    text-anchor: middle;
+    fill: #fff;
+  }
+
+  .com3{
+    display: inline-block;
+    position:relative;
+    left: -1vw;
+    top:-57vh;
+    height: 75vh;
+    width: 84vw;
+    /* border: 1px solid rgb(9, 9, 10); */
+    border-radius: 10px;
+    margin-top: 10vh;
+    /* box-shadow: -1px -1px 4px -1px rgba(0,0,0,0.25); */
+    box-shadow: 0px 0px 3px 3px rgb(41, 37, 37);
+  }

@@ -1,0 +1,63 @@
+.map-container {
+    height: 500px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .map-container svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .map-container .map-tooltip {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    max-width: 300px;
+    padding: 10px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 9999;
+  }
+  
+  .map-container .map-tooltip:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ccc;
+    content: "";
+    height: 0;
+    position: absolute;
+    top: -10px;
+    width: 0;
+  }
+  
+  .map-container .map-tooltip.show {
+    visibility: visible;
+  }
+  
+  .map-legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .map-legend .color-box {
+    height: 20px;
+    width: 30px;
+  }
+  
+  .map-legend .legend-label {
+    font-size: 12px;
+  }
+  
+  .map-legend .legend-min-value {
+    text-align: left;
+  }
+  
+  .map-legend .legend-max-value {
+    text-align: right;
+  }
+  

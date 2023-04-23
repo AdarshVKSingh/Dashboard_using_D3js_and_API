@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.com1:hover{
+  transform: scale(1.05);
+}
+.com2:hover{
+  transform: scale(1.05);
+}
+.com3:hover{
+  transform: scale(1.05);
+}
+.com4:hover{
+  transform: scale(1.1);
+}

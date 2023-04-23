@@ -1,0 +1,71 @@
+/* Word Cloud CSS */
+
+.word-cloud-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .word-cloud-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .word-cloud {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .word-cloud-text {
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  /* Choropleth Map CSS */
+  
+  .choropleth-map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .choropleth-map-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .choropleth-map {
+    width: 80%;
+    height: 400px;
+  }
+  
+  .choropleth-legend {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  .choropleth-legend-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .choropleth-legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .choropleth-legend-text {
+    font-size: 14px;
+  }
+  
